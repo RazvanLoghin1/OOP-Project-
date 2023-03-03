@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="150.0" prefWidth="250.0" style="-fx-background-color: #395E66;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.QuestionType2Ctrl">
+   <children>
+      <TextField fx:id="answerTextBox" layoutX="10.0" layoutY="10.0" prefHeight="130.0" prefWidth="230.0" promptText="Correct Answer" style="-fx-background-color: trnasparent; -fx-text-fill: #000000;">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

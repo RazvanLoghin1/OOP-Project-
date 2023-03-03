@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #395E66;" styleClass="anchor" stylesheets="@/client/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.PostQuestionCtrl">
+   <children>
+      <Pane layoutX="80.0" layoutY="320.0" prefHeight="60.0" prefWidth="440.0" style="-fx-background-color: #387D7A; -fx-background-radius: 10;">
+         <children>
+            <Button layoutX="157.7" layoutY="5.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="124.5" style="-fx-background-radius: 10;" text="Appliance2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="298.8" layoutY="5.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="124.5" style="-fx-background-radius: 10;" text="Appliance3">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="16.5" layoutY="5.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="124.5" style="-fx-background-radius: 10;" text="Appliance1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="80.0" layoutY="20.0" prefHeight="60.0" prefWidth="440.0" style="-fx-background-color: #32946F; -fx-background-radius: 10;" styleClass="light-container">
+         <children>
+            <Text layoutX="15.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Which appliance uses the most energy?" wrappingWidth="409.6328125">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="80.0" layoutY="100.0" prefHeight="200.0" prefWidth="440.0" style="-fx-background-color: #387D7A;" styleClass="dark-container">
+         <children>
+            <Text layoutX="33.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Could do a barchart here, but maybe it looks better to design our own. Also need to add emoji keyboard to here" wrappingWidth="381.421875" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

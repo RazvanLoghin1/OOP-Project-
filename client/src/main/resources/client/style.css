@@ -1,0 +1,98 @@
+* {
+    /* Variables: */
+    -the-void: #395E66;
+    -dark-background: #387D7A;
+    -light-background: #32936F;
+    -dark-element: #26A96C;
+    -light-element: #2BC016;
+
+    /* Apparently, you can't simply make variables for numbers in JavaFX CSS:
+    https://stackoverflow.com/questions/56345446/javafx-css-variable-defination-error-expected-number-while-parsing-font-si
+    */
+}
+
+.anchor {
+    -fx-background-color: -the-void;
+}
+
+.text-field {
+    -fx-background-color: -dark-background;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: -light-element;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+}
+
+.button:hover {
+    -fx-background-color: -dark-element;
+}
+
+/* You need to put hover here aswell so the normal hover
+above doesn't override it */
+
+.toggle-button:correct, .toggle-button:correct:hover  {
+    -fx-background-color: blue;
+}
+
+.toggle-button:wrong, .toggle-button:wrong:hover {
+    -fx-background-color: red;
+}
+
+.toggle-button {
+    -fx-background-color: -light-element;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+}
+
+.toggle-button:hover {
+    -fx-background-color: -dark-element;
+}
+
+.light-container {
+    -fx-background-color: -light-background;
+    -fx-background-radius: 10;
+}
+
+.dark-container {
+    -fx-background-color: -dark-background;
+    -fx-background-radius: 10;
+}
+
+.title {
+    -fx-fill: white;
+    -fx-text-fill: white;
+    -fx-font-size: 48;
+}
+
+#quiz-logo {
+    -fx-fill: white;
+    -fx-text-fill: white;
+    -fx-font-size: 192;
+}
+
+.progress-bar {
+    -fx-accent: -light-element;
+}
+
+.progress-bar > .track {
+    -fx-control-inner-background: -light-background;
+    -fx-text-box-border: -dark-background;
+}
+
+/* Table Style: */
+.table-view, .list-view {
+    -fx-background-color: -the-void;
+}
+
+.table-view .column-header {
+    -fx-background-color: -light-background;
+    -fx-font-size: 24px;
+}
+
+.table-view .table-cell, .list-view .list-cell{
+    -fx-font-size: 24px;
+    -fx-background-color: -dark-background;
+}
